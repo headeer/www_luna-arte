@@ -1,0 +1,218 @@
+.laser-header {
+  background-image: url("./assets/new/bg_stylizacja.png");
+}
+@media screen and (max-width: 768px) {
+  .laser-header {
+    background-image: url("./assets/new/bg_mobile.png");
+  }
+}
+.laser.first .lines {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.laser.first .lines span {
+  height: 1px;
+  background-color: #131317;
+  width: 12.415625vw;
+}
+@media screen and (min-width: 1024px) {
+  .page .laser.first .left {
+    width: 37%;
+  }
+  .laser.first .left .quotebox span {
+    height: 2.8vw;
+  }
+  .laser.first {
+    padding-bottom: 0 !important;
+  }
+  .piercing.second,
+  .piercing.third {
+    padding-bottom: 110px !important;
+  }
+  .piercing.second {
+    .subtitle {
+      margin-top: 110px;
+      margin-bottom: 110px;
+    }
+  }
+  .piercing.third {
+    .subtitle {
+      margin-bottom: 100px !important;
+      margin-top: 0;
+    }
+    .gallery {
+      margin-top: 71px;
+    }
+  }
+  .page section.second .line {
+    margin-bottom: 71px;
+  }
+  .laser.first {
+    .lines {
+      margin-bottom: 130px;
+    }
+  }
+}
+
+.laser.first .right {
+  background-image: url("./assets/new/stylizacja_section1.png");
+}
+#container.fluid .item {
+  width: 24.3%;
+  margin: 5px 0.2% 5px 0.2%;
+}
+#container.fluid .item img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  opacity: 1;
+}
+.image {
+  float: left;
+  position: relative;
+}
+.image-hover img {
+  width: 100%;
+  vertical-align: top;
+}
+.image-hover:after {
+  content: "\A";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.image-hover:hover:after {
+  opacity: 1;
+}
+.loader {
+  text-align: center;
+  margin-top: 20px;
+}
+.piercing.second .gallery .photos,
+.piercing.third .gallery .photos {
+  column-count: 3;
+  column-gap: 28px;
+  display: block;
+}
+
+.piercing.second .gallery .photos .carousel-row--img,
+.piercing.third .gallery .photos .carousel-row--img {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 28px;
+  break-inside: avoid;
+  width: 100%;
+  height: auto;
+}
+.piercing.second .gallery .photos .carousel-row--img img,
+.piercing.third .gallery .photos .carousel-row--img img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+  align-self: flex-start;
+}
+.laser.last .front .headers {
+  width: 100%;
+}
+.laser.last .front .line {
+  position: absolute;
+}
+.laser.last .center .leftbox .left::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  background-image: url("./assets/new/map_footer.png");
+}
+.page .gallery .photos.carousel-row {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  footer .wrapper .line {
+    display: block;
+    margin: 17px 0;
+  }
+  .full-desktop {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .laser.first {
+    h4,
+    h2 {
+      width: 100%;
+    }
+  }
+  .laser.first .center .right {
+    height: 37vh;
+    background-image: url("./assets/new/stylizacja__section1_mobile.png");
+  }
+  .piercing.third .rust-btn {
+    width: 91%;
+    margin: 42px 16px 50px !important;
+  }
+  .laser.last .center .leftbox .left::after {
+    background-size: cover;
+    border-top-left-radius: 17%;
+  }
+  .laser.first {
+    .center {
+      .left {
+        .quotebox {
+          span {
+            height: 90%;
+          }
+        }
+      }
+    }
+  }
+
+  .page {
+    .laser.first {
+      .lines {
+        margin-bottom: 45px;
+      }
+    }
+  }
+  section .line {
+    width: 20%;
+  }
+  .piercing.second .gallery .photos,
+  .piercing.third .gallery .photos {
+    column-count: 2;
+    column-gap: 10px;
+    .carousel-row--img {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.rust-btn {
+  font-weight: 600;
+  letter-spacing: 1.54px;
+  font-size: 14px;
+  white-space: nowrap;
+}
