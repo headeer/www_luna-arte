@@ -1,0 +1,20 @@
+<svg id="ico_calentar" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #e79f7a;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Prostokąt_2" data-name="Prostokąt 2" class="cls-1" d="M0.5,2.5h25v23H0.5V2.5Z"/>
+  <path id="Prostokąt_2_kopia" data-name="Prostokąt 2 kopia" class="cls-1" d="M25.5,7.5H0.5"/>
+  <path id="Prostokąt_2_kopia_4" data-name="Prostokąt 2 kopia 4" class="cls-1" d="M25.5,13.5H0.5"/>
+  <path id="Prostokąt_2_kopia_11" data-name="Prostokąt 2 kopia 11" class="cls-1" d="M25.5,19.5H0.5"/>
+  <path id="Prostokąt_2_kopia_2" data-name="Prostokąt 2 kopia 2" class="cls-1" d="M8.5,25.5V7.5"/>
+  <path id="Prostokąt_2_kopia_3" data-name="Prostokąt 2 kopia 3" class="cls-1" d="M17.5,25.5V7.5"/>
+  <path id="Prostokąt_2_kopia_5" data-name="Prostokąt 2 kopia 5" class="cls-1" d="M20.5,4.5v-4"/>
+  <path id="Prostokąt_2_kopia_6" data-name="Prostokąt 2 kopia 6" class="cls-1" d="M5.5,4.5v-4"/>
+</svg>

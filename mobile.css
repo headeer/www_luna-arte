@@ -587,11 +587,41 @@ header .nav-link {
 
 .contact .socials {
   margin: 30px 0;
-  width: 13.5%;
+  width: 100%;
+  align-items: center;
 }
 
 .contact .socials a {
   margin-right: 15px;
+}
+
+.contact .socials .calendar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.contact .socials .calendar-link .calendar-icon {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.contact .socials .calendar-link .calendar-text {
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 29px;
+  color: #131317;
+  margin: 0;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.contact .socials .calendar-link:hover .calendar-text {
+  text-decoration: underline;
 }
 
 .contact .buttonbox {
@@ -1742,7 +1772,7 @@ footer .wrapper .line {
   .page .contact-us.first .right {
     width: 37.34375vw;
     height: 88.02889vh;
-    background-image: url("assets/images/map.png");
+    background-image: url("assets/new/update_nov/map_new.png");
     position: relative;
   }
 

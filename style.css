@@ -1043,17 +1043,41 @@ header .more.rust-btn.null:hover {
 
 .contact .socials {
   margin: 30px 0;
-  width: 13.5%;
+  width: 75.5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  a {
+    height: 26px;
+  }
 }
 
-.contact .socials a:first-child {
-  order: 2;
+
+.contact .socials .calendar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
 }
 
-.contact .socials a:nth-child(2) {
-  order: 3;
+.contact .socials .calendar-link .calendar-icon {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.contact .socials .calendar-link .calendar-text {
+  font-size: 16px;
+  letter-spacing: 1.12px;
+  line-height: 29px;
+  color: #131317;
+  margin: 0;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.contact .socials .calendar-link:hover .calendar-text {
+  text-decoration: underline;
 }
 
 .contact .buttonbox {
@@ -1072,7 +1096,7 @@ header .more.rust-btn.null:hover {
 .contact .center .right {
   width: 717px;
   height: 853px;
-  background: url("./assets/images/map.png");
+  background: url("./assets/new/update_nov/map_new.png");
   background-position: center;
   border-top-left-radius: 120px;
   position: relative;
