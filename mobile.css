@@ -2003,6 +2003,32 @@ footer .wrapper .line {
     top: 70.5%;
   }
 
+  .contact-us.second .map {
+    background-image: url("assets/new/update_nov/map_new.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .contact-us.second .map h5 {
+    position: absolute;
+    top: -7.25%;
+    left: 23%;
+    font-size: 14px;
+    text-transform: none;
+    line-height: 23px;
+    letter-spacing: 0.98px;
+    box-sizing: content-box;
+    width: 73.5%;
+    padding: 17.5px 11.8px;
+  }
+
+  .contact-us.second .map h5 a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
   .desktop {
     display: none;
   }

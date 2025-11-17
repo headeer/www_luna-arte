@@ -98,3 +98,14 @@ burger.addEventListener("click", () => {
     return false;
   }
 });
+
+// Dynamiczny rok w stopce
+document.addEventListener('DOMContentLoaded', function() {
+  const currentYear = new Date().getFullYear();
+  const footerTexts = document.querySelectorAll('footer .bottom p');
+  footerTexts.forEach(function(element) {
+    if (element.textContent.includes('2024')) {
+      element.textContent = element.textContent.replace('2024', currentYear);
+    }
+  });
+});
