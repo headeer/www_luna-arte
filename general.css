@@ -1561,15 +1561,15 @@ footer a.store {
 }
 
 .prices.first .wrapper .piercingbox:nth-child(18) .bgbox {
-  background-image: url("assets/images/prices/18_piercing_policzki.png");
-}
-
-.prices.first .wrapper .piercingbox:nth-child(19) .bgbox {
   background-image: url("assets/images/prices/19_piercing_pepek.png");
 }
 
+.prices.first .wrapper .piercingbox:nth-child(19) .bgbox {
+  background-image: url("assets/images/prices/21_piercing_microdermal.png");
+}
+
 .prices.first .wrapper .piercingbox:nth-child(20) .bgbox {
-  background-image: url("assets/images/prices/20_piercing_sutki.png");
+  background-image: url("assets/images/prices/23_piercing_konsultacje.png");
 }
 
 .prices.first .wrapper .piercingbox:nth-child(21) .bgbox {
